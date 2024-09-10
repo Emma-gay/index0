@@ -1,29 +1,76 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> html </title>
-    </section>
-
-    <section>
+	<title> Aprendizaje html </title>
+</head>
+<body>
+<section>
         <h2>Listas</h2>
         <h3>Lista Ordenada</h3>
-        <ol>
-            <li> 1 list </li>
-            <li> 2 list </li>
-            <li> 3 list </li>
-        </ol>
-	<b19> Listas ordenadas (<ol>): Estas listas tienen un orden secuencial y utilizan números o letras para mostrar el orden de los elementos. Cada ítem de la lista se define con la etiqueta <li>. </b19>
-<br></brgh>
+<ol>
+    <li>Precalentar el horno.</li>
+    <li>Mezclar los ingredientes.</li>
+    <li>Verter en un molde.</li>
+    <li>Hornear por 30 minutos.</li>
+</ol>
+<h13>Se utilizan cuando el orden de los elementos es importante, como en pasos de un proceso, recetas, o instrucciones secuenciales.</h13>
+<br></br>
         <h3>Lista Desordenada</h3>
-        <ul>
-            <li>El A</li>
-            <li>El B</li>
-            <li>El C </li>
-        </ul>
-        <b20>En HTML, una lista desordenada se utiliza para agrupar una serie de ítems en un orden no secuencial. A diferencia de las listas ordenadas, que utilizan números o letras para indicar el orden de los ítems, las listas desordenadas usan viñetas para cada ítem. Esta estructura es útil cuando el orden de los elementos no es importante.</b20>
-<br></brgh>
+<ul>
+    <li>Hacer la compra</li>
+    <li>Enviar correo</li>
+    <li>Leer un libro</li>
+</ul>
+        <b20>Útiles para mostrar elementos que no tienen un orden específico. Ideal para enumerar características, elementos de menú, o cualquier grupo de ítems donde el orden no importa.</b20>
     </section>
-    <section>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Tabla en HTML</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Elimina el espacio entre los bordes de las celdas */
+        }
+        th, td {
+            border: 1px solid #ddd; /* Agrega un borde a las celdas */
+            padding: 8px;           /* Agrega relleno dentro de las celdas */
+            text-align: left;       /* Alinea el texto a la izquierda */
+        }
+        th {
+            background-color: #f2f2f2; /* Color de fondo para los encabezados */
+        }
+    </style>
 </head>
+<body>
+    <h1>Tabla de Ejemplo</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>30</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>25</td>
+                <td>Barcelona</td>
+            </tr>
+            <tr>
+                <td>Carol</td>
+                <td>35</td>
+                <td>Valencia</td>
+            </tr>
+        </tbody>
+    </table>
+
+<br></brgh>
