@@ -74,7 +74,6 @@
     </table>
 
  <p> siguiente pagina <a href="https://emma-gay.github.io/index2/"> enlace</a> a otro sitio web.</p>
- </head>
 </body>
 </html>
  
